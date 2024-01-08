@@ -2,8 +2,8 @@ package JAVA;
 
 public class sumelementarrayrecursion {
     static int sumarr(int arr[],int idx){
-        if(idx==arr.length-1){
-            return arr[idx];
+        if(idx==arr.length){
+            return 0;
         }
         int smallans=sumarr(arr,idx+1);
         return smallans+arr[idx];
