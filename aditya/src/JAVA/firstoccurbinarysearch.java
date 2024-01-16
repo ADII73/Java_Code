@@ -22,8 +22,8 @@ public class firstoccurbinarysearch {
         return fo;
     }
     public static void main(String[] args) {
-        int arr[]={5,5,5,5,6,2,4};
-        int x=15;
+        int arr[]={15,5,5,5,6,2,4};
+        int x=5;
         System.out.println(fosearch(arr,x));
     }
 }
