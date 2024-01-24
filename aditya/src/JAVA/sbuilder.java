@@ -20,7 +20,7 @@ public class sbuilder {
         System.out.println(s);
 
         s.reverse();
-        s.delete(1,4);
+        s.delete(1,4);   // to delete characters from i to j
         System.out.println(s);
     }
 }
