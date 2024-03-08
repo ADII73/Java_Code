@@ -11,6 +11,15 @@ public class maxinarrayrecursion {
         return Math.max(arr[idx],smallans);     // self work - compare between small ans and current idx
 
     }
+    static int maxEle(int[] arr){ // iteration method
+        int max= arr[0];
+        for(int i = 1;i<arr.length;i++){
+            if(arr[i]>max){
+                max = arr[i];
+            }
+        }
+        return max;
+    }
     public static void main(String[] args) {
         int arr[]={45,65,1,54,350};
         System.out.println(maxarr(arr,0));
